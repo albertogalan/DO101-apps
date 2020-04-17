@@ -22,7 +22,7 @@ block content
             p
             br
             .panel.panel-primary
-              .panel-heading Weather for: #{weather.name}, #{weather.sys.country}
+              .panel-heading Weather for this place is: #{weather.name}, #{weather.sys.country}
               .panel-body
                p Current Temperature = #{weather.main.temp} !{units}, #{weather.weather[0].description}
                p Humidity = #{weather.main.humidity} &#37;
